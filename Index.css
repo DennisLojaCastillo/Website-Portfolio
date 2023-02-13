@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+
+#wrapper-div {
+    width: 100%;
+    margin: auto;
+}
+
+
+#logo-nav-div {
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#logo-div {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+#logo-div img {
+    height: 150px;
+    width: 150px;
+}
+
+
+#nav-div {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav li a {
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Logo-Nav-Div End*/
+
+
+#header-banner-div {
+    width: 100%;
+    min-height: 550px;
+    line-height: 600px;
+}
+
+#header-banner-div .header-box {
+    width: 50%;
+    min-height: 550px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+#header-banner-div .header-box .text-box {
+    padding-top: 25%;
+}
+
+#header-banner-div #text-section .roller {
+    height: 3.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#header-banner-div #text-section .roller #roll-text {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+    0%{
+        top:0;
+    }
+    25%{
+        top: -4rem;
+    }
+    50%{
+        top: -8rem;
+    }
+    72.5%{
+        top: -12.25rem;
+    }
+}
+
+#header-banner-div .header-box .text-box h1 {
+    font-size: 50px;
+}
+
+
+#header-banner-div .header-box:nth-child(2) {
+    height: 400px;
+}
+
+
+#header-banner-div img {
+    width: 455px;
+}
+
+/*Header Banner End*/
+
+
+#intro-div {
+    width: 100%;
+    min-height: 770px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;
+
+}
+
+#intro-div .h1-intro {
+    padding-top: 10%;
+}
+
+
+
+main h1 {
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+
+main h3, p {
+    padding: 0 250px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* Intro-div End*/
+
+#education-section {
+    width: 100%;
+    min-height: 770px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+
+#job-section {
+    width: 100%;
+    min-height: 770px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+#projects-section {
+    width: 100%;
+    min-height: 770px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+}
